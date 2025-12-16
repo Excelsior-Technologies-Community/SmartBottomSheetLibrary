@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SmartBottomSheet">
+
+        <!-- Height Configuration -->
+        <!-- Height of the sheet when collapsed (default: 120dp) -->
+        <attr name="collapsedHeight" format="dimension"/>
+
+        <!-- Height of the sheet when expanded (default: 600dp) -->
+        <attr name="expandedHeight" format="dimension"/>
+
+        <!-- Drag Configuration -->
+        <!-- Drag sensitivity multiplier (default: 1.0, higher = more sensitive) -->
+        <attr name="dragSensitivity" format="float"/>
+
+        <!-- Visual Styling -->
+        <!-- Corner radius for top corners (default: 24dp) -->
+        <attr name="cornerRadius" format="dimension"/>
+
+        <!-- Background color of the sheet (default: white) -->
+        <attr name="sheetBackgroundColor" format="color"/>
+
+        <!-- Elevation/shadow of the sheet (default: 16dp) -->
+        <attr name="sheetElevation" format="dimension"/>
+
+        <!-- Dim overlay color (default: #99000000) -->
+        <attr name="dimOverlayColor" format="color"/>
+
+        <!-- Dim overlay opacity (default: 0.85, range: 0.0-1.0) -->
+        <attr name="dimOverlayOpacity" format="float"/>
+
+        <!-- Blur Effect -->
+        <!-- Enable blur effect on background (requires Android 12+) -->
+        <attr name="enableBlur" format="boolean"/>
+
+        <!-- Blur radius in pixels (default: 20, only works on Android 12+) -->
+        <attr name="blurRadius" format="integer"/>
+
+        <!-- Behavior -->
+        <!-- Auto expand sheet on start (default: false) -->
+        <attr name="autoExpand" format="boolean"/>
+
+        <!-- Animation duration in milliseconds (default: 350ms) -->
+        <attr name="animationDuration" format="integer"/>
+
+        <!-- Enable tap outside to close (default: true) -->
+        <attr name="closeOnTapOutside" format="boolean"/>
+
+    </declare-styleable>
+
+</resources>
