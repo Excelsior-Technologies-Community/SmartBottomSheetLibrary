@@ -119,7 +119,7 @@ implementation("com.github.Excelsior-Technologies-Community:ImageCrop:1.0.0")
 - User drags the sheet upward
 
 - On downward drag → it collapses back
-- 
+  
 
 **📌 MainActivity.kt Example**
 
